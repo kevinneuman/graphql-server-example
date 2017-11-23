@@ -1,0 +1,38 @@
+{
+  "name": "graphql-server-example",
+  "version": "1.0.0",
+  "description": "A GraphQL server example",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kevinneuman/graphql-server-example.git"
+  },
+  "main": "./src/server.js",
+  "scripts": {
+    "start": "nodemon src/server.js --exec babel-node",
+    "build": "babel src -d dist",
+    "serve": "node dist/server.js",
+    "test": "./node_modules/.bin/eslint src/* && mocha --require babel-register"
+  },
+  "author": "Kevin Neuman",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "eslint": "^4.11.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "mocha": "^4.0.0",
+    "nodemon": "^1.12.1"
+  },
+  "dependencies": {
+    "apollo-server-express": "^1.2.0",
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "graphql": "^0.11.7",
+    "graphql-tools": "^2.7.2",
+    "lodash": "^4.17.4"
+  }
+}
