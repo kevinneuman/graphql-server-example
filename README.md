@@ -1,6 +1,4 @@
 # graphql-server-example
-GraphQL Apollo server example.
-
 [Apollo server](https://github.com/apollographql/apollo-server) is a flexible, community driven, production-ready HTTP Apollo Server plugin for Node.js.
 ## Install
 ```
@@ -13,7 +11,7 @@ npm start
 ## Examples
 Open the browser and access GraphiQL at: `http://localhost:3000/graphiql`
 ### Queries
-**All users**
+All users
 ```
 {
   users {
@@ -22,7 +20,7 @@ Open the browser and access GraphiQL at: `http://localhost:3000/graphiql`
   }
 }
 ```
-**All posts**
+All posts
 ```
 {
   posts {
@@ -32,7 +30,7 @@ Open the browser and access GraphiQL at: `http://localhost:3000/graphiql`
   }
 }
 ```
-**User with `id: 1`**
+User with `id: 1`
 ```
 {
   user(id: 1) {
@@ -41,7 +39,7 @@ Open the browser and access GraphiQL at: `http://localhost:3000/graphiql`
   }
 }
 ```
-**Friends for `userId: 1`**
+Friends for `userId: 1`
 ```
 {
   friends(userId: 1) {
@@ -50,7 +48,7 @@ Open the browser and access GraphiQL at: `http://localhost:3000/graphiql`
   }
 }
 ```
-**All users + their posts and friends**
+All users + their posts and friends
 ```
 {
   users {
@@ -66,7 +64,7 @@ Open the browser and access GraphiQL at: `http://localhost:3000/graphiql`
 }
 ```
 ### Mutations
-**New post by `userId: 1`**
+New post by `userId: 1`
 ```
 mutation {
   addPost(userId: 1, message: "Hello from GraphiQL!") {
@@ -74,7 +72,7 @@ mutation {
   }
 }
 ```
-**New friend for `userId: 2`**
+New friend for `userId: 2`
 ```
 mutation {
   addFriend(userId: 2, friendId: 3) {
