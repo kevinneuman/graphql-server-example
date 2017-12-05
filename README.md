@@ -9,7 +9,7 @@ npm install
 npm start
 ```
 ## Examples
-Open the browser and access GraphiQL at: `http://localhost:3000/graphiql`
+Open the browser and access GraphiQL at: `http://localhost:4000/graphiql`
 ### Queries
 All users
 ```

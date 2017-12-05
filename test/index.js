@@ -5,7 +5,7 @@ import '../src/server.js';
 
 describe('Example Node Server', () => {
   it('should return 404', done => {
-    http.get('http://127.0.0.1:3000', res => {
+    http.get('http://127.0.0.1:4000', res => {
       assert.equal(404, res.statusCode);
       done();
     });

@@ -19,7 +19,7 @@ app.use(
   graphiqlExpress({ endpointURL: '/graphql' }),
 );
 
-app.listen(3000, () => {
-  console.log('GraphQL server is now running on http://localhost:3000/graphql');
-  console.log('Access GraphiQL at http://localhost:3000/graphiql');
+app.listen(4000, () => {
+  console.log('GraphQL server is now running on http://localhost:4000/graphql');
+  console.log('Access GraphiQL at http://localhost:4000/graphiql');
 });
