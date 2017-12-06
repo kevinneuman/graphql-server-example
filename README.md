@@ -1,5 +1,5 @@
 # graphql-server-example
-[Apollo server](https://github.com/apollographql/apollo-server) is a flexible, community driven, production-ready HTTP Apollo Server plugin for Node.js.
+[Apollo server](https://github.com/apollographql/apollo-server) is a community-maintained open-source GraphQL server.
 ## Install
 ```
 git clone https://github.com/kevinneuman/graphql-server-example.git
